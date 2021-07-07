@@ -1,5 +1,5 @@
 public class PrimitiveOperations {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         // Declare and Initialize int/double vars
         int myInt = 3;
         double myDouble = 5.75;
@@ -19,10 +19,11 @@ public class PrimitiveOperations {
         System.out.println(myCastInt);
 
         // Declare and initialize char
-        char myChar = 'A';
+        char myChar = 'H';
         System.out.println(myChar);
 
-        //
-
+        // Convert to lowercase using num op
+        char myLowerChar = (char) ((int) myChar + 32);
+        System.out.println(myLowerChar);
     }
 }
